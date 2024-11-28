@@ -108,9 +108,9 @@ const Navbar = () => {
                 </ul>
 
                 <div className="container-sponsor">
-                    <Link to="#">
-                        <img src={Steam} alt="" height={40} width={40} className='img-etch'/>
-                    </Link>
+                <a href='https://wendeus.itch.io/alarmevil' target='_blank' rel="noreferrer">
+                <img src={Steam} alt="" height={40} width={40} className='img-etch'/></a>
+
                 </div>
             </nav>
         </div>

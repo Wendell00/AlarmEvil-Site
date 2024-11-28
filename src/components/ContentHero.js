@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import Button from './Button';
 import '../css/ContentHero.scss';
 import '../css/GlitchEffect2.scss';
+import { Link } from 'react-scroll';
 
 
 const ContentHero = () => {
@@ -29,7 +30,10 @@ const ContentHero = () => {
                     MATE SEU DEMÔNIO
                 </h1> */}
                 <h4 className="hero-content__title-2">Experimente um novo jogo de arqui-inimigo</h4>
+                <a href='https://wendeus.itch.io/alarmevil' target='_blank' rel="noreferrer">
                 <Button {...button_info}/>
+                </a>
+
             </div>
         </div>
     )
